@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BG-002 · Background &amp; dependencies · Ruthvik</title>
+<meta name="description" content="More about how I work, the tools I use, where I've worked, and the leadership stuff. Companion to PRD-001.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="doc-chrome">
+  <div class="doc-chrome__left">
+    <span><span class="live-dot"></span>LIVE</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>BG–002</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>Background &amp; dependencies</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>v3.2</span>
+  </div>
+  <div class="doc-chrome__right">
+    <span>Companion to <a href="index.html">PRD–001</a></span>
+    <span class="doc-chrome__slash">/</span>
+    <a href="contact.html">Say hi ↗</a>
+  </div>
+</div>
+
+<nav class="tabs">
+  <button class="tabs__burger" aria-label="Sections">Sections ☰</button>
+  <div class="tabs__list">
+    <a href="index.html">PRD-001 · About</a>
+    <a href="about.html" class="active">BG-002 · Background</a>
+    <a href="portfolio.html">APX-A · Case files</a>
+    <a href="contact.html">TKT-001 · Get in touch</a>
+  </div>
+  <span class="tabs__meta">Goes with <a href="index.html" style="color:var(--accent)">PRD-001</a></span>
+</nav>
+
+<main class="doc">
+  <aside class="doc__gutter" aria-hidden="true"></aside>
+
+  <div class="doc__body">
+
+    <p class="doc-id"># BG–002</p>
+    <h1 class="doc-title">A bit more<br><em>about how I work.</em></h1>
+    <p class="doc-meta">
+      <span><b>Author:</b> S.J. Ruthvik</span>
+      <span><b>Goes with:</b> <a href="index.html">PRD–001</a></span>
+      <span><b>Status:</b> <span class="pill pill--shipped">current</span></span>
+      <span><b>Last edited:</b> <span data-today>today</span></span>
+    </p>
+
+    <div class="tldr" data-reveal>
+      <div class="tldr__label">TL;DR</div>
+      <p>This is the longer version of the Home page. A bit more on how I think, the tools I actually use, where I've worked, and a few of the community / leadership things I've done along the way.</p>
+    </div>
+
+    <section class="section" id="philosophy">
+      <p class="section__label">01 — How I think about the work</p>
+      <h2>A few habits that have stuck.</h2>
+
+      <h3>01 &nbsp;&nbsp; Start at the slow step.</h3>
+      <p>Before I get into specs, I try to figure out where the actual constraint is. Sometimes it's an obvious bottleneck; sometimes it's a thing nobody's measuring yet. Either way, that's usually where the spec needs to start.</p>
+
+      <h3>02 &nbsp;&nbsp; Build the system, not just the feature.</h3>
+      <p>A tool is a tool. A system that's measurably faster or cheaper is what tends to stay. That sometimes means killing a feature I was attached to — which is fine, that's part of the job.</p>
+
+      <h3>03 &nbsp;&nbsp; Instrument before launch, not after.</h3>
+      <p>If we can't see the metric move on a dashboard, I'm not really sure if we changed anything. So I try to get the measurement in first. This is the one thing I'll usually push back on engineering about.</p>
+    </section>
+
+    <section class="section" id="toolkit">
+      <p class="section__label">02 — Tools I actually use</p>
+      <h2>The dependencies file, roughly.</h2>
+      <p>Rather than guess a percentage at a "skill," here are the tools I actually reach for.</p>
+
+      <div class="deps" data-reveal>
+        <div class="deps__head">// ~/ruthvik/toolkit.json</div>
+        <div class="deps__line"><b>"strategy":</b><span>{ prd, roadmap, process-mapping, competitor-teardown }</span></div>
+        <div class="deps__line"><b>"research":</b><span>{ user-research, market-analysis, jobs-to-be-done }</span></div>
+        <div class="deps__line"><b>"design":</b><span>{ figma, wireframes, ux-flows, usability-testing }</span></div>
+        <div class="deps__line"><b>"build":</b><span>{ bubble <span class="v">^v25</span>, retool <span class="v">^v3</span>, api-docs, no-code-prototyping }</span></div>
+        <div class="deps__line"><b>"data":</b><span>{ dashboards, metrics, data-viz, sql-basics, a/b-thinking }</span></div>
+        <div class="deps__line"><b>"engineering":</b><span>{ embedded, iot, firmware, telematics, arm, gsm, aws }</span></div>
+        <div class="deps__line"><b>"leadership":</b><span>{ stakeholder-mgmt, mentorship, 1:1s, async-writing }</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="changelog">
+      <p class="section__label">03 — Changelog · where I've worked</p>
+      <h2>The longer version of my CV.</h2>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v3.2 · current</span>
+          <span class="spec__title">Technical Product Manager</span>
+          <span class="spec__date">Feb 2025 — present</span>
+          <span class="spec__org">@ Akteena</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>SDK and firmware roadmap; API documentation; compliance &amp; support infrastructure.</div></div>
+        <div class="spec__row"><b>WORK</b><div>Built out the API documentation suite, which has helped reduce back-and-forth with partner engineering teams. Driving the SDK and firmware roadmap, including Device Health &amp; Diagnostics and platform error-code workflows. Aligning AIS certification and automating release documentation on the compliance side.</div></div>
+      </article>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v3.1</span>
+          <span class="spec__title">Associate Product Manager</span>
+          <span class="spec__date">Apr 2024 — Dec 2024</span>
+          <span class="spec__org">@ Rang De P2P Financial Services</span>
+        </div>
+        <div class="spec__row"><b>RESULT</b><div>
+          <div class="spec__chips">
+            <span class="chipm"><b>−70%</b> turnaround</span>
+            <span class="chipm"><b>−60%</b> manpower</span>
+            <span class="chipm"><b>−80%</b> manual data</span>
+            <span class="chipm"><b>−30%</b> NPA</span>
+            <span class="chipm"><b>−45%</b> failures</span>
+          </div>
+        </div></div>
+        <div class="spec__row"><b>WORK</b><div>Led the redesign of an automated loan review and publishing system. The turnaround time dropped about 70% and the work needed about 60% fewer people. Built the performance dashboards alongside it, which cut manual data handling roughly 80%. Worked on repayment strategy and partner oversight to bring NPA down ~30%, and re-did the loan application flow which dropped failure rates by ~45%.</div></div>
+      </article>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v3.0</span>
+          <span class="spec__title">Product Fellow</span>
+          <span class="spec__date">Sep 2023 — Dec 2023</span>
+          <span class="spec__org">@ Upraised</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>16-week product fellowship across design, strategy, data analysis and delivery.</div></div>
+        <div class="spec__row"><b>WORK</b><div>Wrote a PRD on growing MTU for smallcase, designed a "Book your Cook" concept for Zomato, and worked through a MakeMyTrip case study.</div></div>
+      </article>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v2.x</span>
+          <span class="spec__title">Associate Product Analyst · Presales</span>
+          <span class="spec__date">Jan 2022 — Aug 2023</span>
+          <span class="spec__org">@ Dell Technologies</span>
+        </div>
+        <div class="spec__row"><b>RESULT</b><div>
+          <div class="spec__chips">
+            <span class="chipm"><b>$200M</b> new pipeline</span>
+            <span class="chipm"><b>+15%</b> field sales</span>
+            <span class="chipm"><b>+10%</b> opportunity growth</span>
+            <span class="chipm"><b>10+</b> products analyzed</span>
+          </div>
+        </div></div>
+        <div class="spec__row"><b>WORK</b><div>Worked across the storage portfolio — analysing 10+ Dell Storage products and producing performance and behaviour reports that fed into product decisions. Optimised product-placement strategy through market analysis, which lifted field sales about 15%. Strategised a ~$200M new-business pipeline by going deep on client environments, storage systems and renewal opportunities.</div></div>
+      </article>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v1.x</span>
+          <span class="spec__title">Engineer Intern · Embedded Systems</span>
+          <span class="spec__date">Jan 2021 — Nov 2021</span>
+          <span class="spec__org">@ Log9 Materials</span>
+        </div>
+        <div class="spec__row"><b>RESULT</b><div>
+          <div class="spec__chips">
+            <span class="chipm"><b>−35%</b> man-hours</span>
+            <span class="chipm"><b>+15%</b> dev speed</span>
+            <span class="chipm">EV Telematics unit built</span>
+          </div>
+        </div></div>
+        <div class="spec__row"><b>WORK</b><div>Designed and built a Telematics Control Unit for EVs — ARM processor, GSM modules, AWS for storage and API gateway. Streamlined the EV display-unit testing process, which brought testing man-hours down about 35%.</div></div>
+      </article>
+
+      <article class="spec" data-reveal>
+        <div class="spec__head">
+          <span class="spec__id">v0</span>
+          <span class="spec__title">B.E., Electronics &amp; Instrumentation</span>
+          <span class="spec__date">Aug 2017 — Aug 2021</span>
+          <span class="spec__org">@ R V College of Engineering</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Specialised in IoT and embedded systems. Built Smart Workspace (Covid era), a Pollution Level Indicator and a handful of other projects. Team Captain of Frequency (100+ members) and Chair of the IEEE RVCE Student Branch.</div></div>
+      </article>
+    </section>
+
+    <section class="section" id="leadership">
+      <p class="section__label">04 — Community &amp; leadership</p>
+      <h2>Roles outside the title.</h2>
+      <p>A lot of this is from the IEEE side of my college years — it taught me more about running things end-to-end than most of my coursework did.</p>
+
+      <article class="spec">
+        <div class="spec__head">
+          <span class="spec__id">2022</span>
+          <span class="spec__title">Joint Secretary · IEEE AP–MTT Joint Chapter</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Led volunteers to organise 20+ events a year for students and faculty in antennas and microwaves. Organised the MAPCON 2022 international conference — 1000+ researchers, 20+ distinguished lectures, 5+ workshops, 50+ industries involved.</div></div>
+      </article>
+
+      <article class="spec">
+        <div class="spec__head">
+          <span class="spec__id">2020–2021</span>
+          <span class="spec__title">Section Student Representative · IEEE Bangalore Section SAC</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Led a team of 25+ student volunteers from across the state, coordinating Section activities and running skill-building events under the Student Activities Committee.</div></div>
+      </article>
+
+      <article class="spec">
+        <div class="spec__head">
+          <span class="spec__id">2020</span>
+          <span class="spec__title">Student Branch Chair · IEEE RVCE Student Branch</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Organised 40+ events that year and helped set up 3 new student chapters and 1 society. Membership grew about 200% and activity roughly doubled. The branch picked up a few national awards along the way.</div></div>
+      </article>
+
+      <article class="spec">
+        <div class="spec__head">
+          <span class="spec__id">2019–2020</span>
+          <span class="spec__title">Team Captain · Frequency Club, RVCE</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Led a 100+ member technical club working on projects in automation, AI and IoT. Trained students in embedded systems and IoT, and put together learning modules to help people find a way in.</div></div>
+      </article>
+
+      <article class="spec">
+        <div class="spec__head">
+          <span class="spec__id">2019–2020</span>
+          <span class="spec__title">Content Lead · Voice Out, Durga India Initiative</span>
+        </div>
+        <div class="spec__row"><b>WHAT</b><div>Founding member and content lead — created and curated content on online safety, trained interns and ran awareness events.</div></div>
+      </article>
+    </section>
+
+    <section class="section" id="awards">
+      <p class="section__label">05 — Awards &amp; recognitions</p>
+      <h2>A few that came along the way.</h2>
+
+      <article class="spec">
+        <div class="spec__head"><span class="spec__id">2022</span><span class="spec__title">Most Diligent Worker · Dell Technologies</span></div>
+        <div class="spec__row"><b>FOR</b><div>Work that turned into high utilisation and customer success across the year.</div></div>
+      </article>
+      <article class="spec">
+        <div class="spec__head"><span class="spec__id">2021</span><span class="spec__title">Outstanding Student Volunteer · IEEE India Council</span></div>
+        <div class="spec__row"><b>FOR</b><div>Planning and execution of activities for IEEE student members across the country.</div></div>
+      </article>
+      <article class="spec">
+        <div class="spec__head"><span class="spec__id">2020</span><span class="spec__title">Outstanding Student Volunteer · IEEE Bangalore Section</span></div>
+        <div class="spec__row"><b>FOR</b><div>Activities benefiting student members of the Bangalore Section.</div></div>
+      </article>
+      <article class="spec">
+        <div class="spec__head"><span class="spec__id">R10 MDLT</span><span class="spec__title">Project Appreciation · IEEE Bangalore Section SAC</span></div>
+        <div class="spec__row"><b>FOR</b><div>Planning and execution of the "Region 10 MDLT Project — Volunteer Lead Achieve Mission 2020".</div></div>
+      </article>
+
+      <p style="margin-top:18px; font-family:var(--font-mono); font-size:11px; letter-spacing:0.1em; color:var(--muted)">// older ones, for completeness</p>
+      <ul class="plain" style="font-family:var(--font-mono); font-size:13px; line-height:1.9; color:var(--ink-2)">
+        <li>— Best Intern · Tequed Labs (2019)</li>
+        <li>— 1st · Hardware Hackathon · NIE Mysuru (2018)</li>
+        <li>— Most Innovative Project · Tequed Labs (2018)</li>
+        <li>— 3rd in District · National Cyber Olympiad (2016)</li>
+        <li>— Prathibha Puraskara (2015, 2017)</li>
+        <li>— Vikasa Shree (2015, 2017)</li>
+      </ul>
+    </section>
+
+    <section class="section" id="offclock">
+      <p class="section__label">06 — Off the clock</p>
+      <h2>What I do when I'm not at this.</h2>
+      <p>Binge shows. Hoard books. Paint on canvases. Catch sunsets. Hunt good food. The usual.</p>
+    </section>
+
+    <footer class="eof">
+      <span class="eof__marker">END OF BG–002</span>
+      <span>© <span data-year>2026</span> S.J. Ruthvik · Bengaluru</span>
+      <span>Continued in <a href="portfolio.html">APX-A · Case files</a></span>
+    </footer>
+
+  </div>
+
+  <aside class="doc__rail">
+
+    <div class="rail__group" data-reveal>
+      <p class="rail__label">AUTHOR</p>
+      <div class="author">
+        <div class="author__photo"><img src="https://www.sjruthvik.in/wp-content/uploads/2024/07/Capture.webp" alt="Ruthvik"></div>
+        <div>
+          <div class="author__name">S.J. Ruthvik</div>
+          <div class="author__role">Technical PM · Akteena</div>
+          <div class="author__links">
+            <a href="https://www.linkedin.com/in/sjruthvik/" target="_blank" rel="noopener">in/</a>
+            <a href="https://twitter.com/sjruthvik" target="_blank" rel="noopener">@/</a>
+            <a href="mailto:sjruthvik99@gmail.com">✉/</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rail__group">
+      <p class="rail__label">CONTENTS</p>
+      <nav class="rail__toc">
+        <a href="#philosophy">01 How I think about the work</a>
+        <a href="#toolkit">02 Tools I actually use</a>
+        <a href="#changelog">03 Changelog</a>
+        <a href="#leadership">04 Community &amp; leadership</a>
+        <a href="#awards">05 Awards</a>
+        <a href="#offclock">06 Off the clock</a>
+      </nav>
+    </div>
+
+    <div class="rail__group">
+      <p class="rail__label">MARGIN NOTES</p>
+      <div class="comment">
+        <div class="comment__head">
+          <span class="comment__avatar comment__avatar--d">R</span>
+          <span class="comment__name">Ruthvik</span>
+          <span class="comment__time">§03</span>
+        </div>
+        <p class="comment__body">If you're short on time, skim the Rang De and Dell entries — that's where the meatier work lives.</p>
+      </div>
+      <div class="comment">
+        <div class="comment__head">
+          <span class="comment__avatar comment__avatar--d">R</span>
+          <span class="comment__name">Ruthvik</span>
+          <span class="comment__time">§04</span>
+        </div>
+        <p class="comment__body">The IEEE years sound like résumé filler but honestly they taught me more about running things than half my coursework did.</p>
+      </div>
+    </div>
+
+  </aside>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
