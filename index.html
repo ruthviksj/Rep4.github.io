@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PRD-001 · About Ruthvik · v3.2</title>
+<meta name="description" content="A portfolio, written as a PRD. About me, how I work, and a few numbers from past projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="doc-chrome">
+  <div class="doc-chrome__left">
+    <span><span class="live-dot"></span>LIVE</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>PRD–001</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>About Ruthvik</span>
+    <span class="doc-chrome__slash">/</span>
+    <span>v3.2</span>
+  </div>
+  <div class="doc-chrome__right">
+    <span>Last edited <b><span data-today>today</span></b></span>
+    <span class="doc-chrome__slash">/</span>
+    <a href="contact.html">Say hi ↗</a>
+  </div>
+</div>
+
+<nav class="tabs">
+  <button class="tabs__burger" aria-label="Sections">Sections ☰</button>
+  <div class="tabs__list">
+    <a href="index.html" class="active">PRD-001 · About</a>
+    <a href="about.html">BG-002 · Background</a>
+    <a href="portfolio.html">APX-A · Case files</a>
+    <a href="contact.html">TKT-001 · Get in touch</a>
+  </div>
+  <span class="tabs__meta">A portfolio, written as a PRD.</span>
+</nav>
+
+<main class="doc">
+
+  <aside class="doc__gutter" aria-hidden="true"></aside>
+
+  <div class="doc__body">
+
+    <p class="doc-id"># PRD–001</p>
+    <h1 class="doc-title">Hi, I'm <em>Ruthvik.</em></h1>
+    <p class="doc-meta">
+      <span><b>Author:</b> S.J. Ruthvik</span>
+      <span><b>Role:</b> Product Manager</span>
+      <span><b>Status:</b> <span class="pill pill--open">open to chats about what's next</span></span>
+      <span><b>Last edited:</b> <span data-today>today</span></span>
+    </p>
+
+    <div class="tldr" data-reveal>
+      <div class="tldr__label">TL;DR</div>
+      <p>I'm a PM with an engineering background. Most of what I do is find the slow or manual step in a process and help rebuild the system around it. I'm currently <strong>Technical PM at Akteena</strong>. The site's written as a PRD because — well, old habits.</p>
+    </div>
+
+    <div class="btn-row" data-reveal>
+      <a class="btn btn--accent" href="https://www.sjruthvik.in/wp-content/uploads/2025/11/SJ-RUTHVIK-RESUME.pdf" target="_blank" rel="noopener">↓ résumé.pdf</a>
+      <a class="btn" href="contact.html">say hi</a>
+      <a class="btn btn--ghost" href="https://calendar.app.google/qNr8E9riKFn4P3YB9" target="_blank" rel="noopener">book 30 min ↗</a>
+    </div>
+
+    <section class="section" id="background">
+      <p class="section__label">01 — Background</p>
+      <h2>A bit about how I got here.</h2>
+      <p>I trained as an Electronics &amp; Instrumentation engineer at <code>RVCE Bengaluru</code>. After college I worked on telematics for EVs at <code>Log9</code>, then moved into competitive and product analysis on the storage portfolio at <code>Dell</code>. That was where the product work really started clicking — and I shifted into PM properly at <code>Rang De</code> in fintech, working on the loan-review and partner-management side of things. These days I'm Technical PM at <code>Akteena</code>, looking after the SDK and firmware roadmap and the compliance/support side.</p>
+      <p>If there's a thread running through it: I tend to end up on whatever process is slow, manual or breaking in a way no one's quite owning end-to-end.</p>
+    </section>
+
+    <section class="section" id="problem">
+      <p class="section__label">02 — What I think you might be hiring for</p>
+      <h2>It usually isn't "more features."</h2>
+      <p>Most product orgs I've seen have at least one process that's slower or more manual than anyone's happy with — it just rarely makes it onto the roadmap because shipping new features feels more visible. The PM roles I'm most interested in are the ones where someone wants help with that — the kind of work where a small set of changes can move something real.</p>
+      <p>If the role is "ship the next thing on the list, please," that's fair, but I'm probably not the best fit.</p>
+    </section>
+
+    <section class="section" id="hypothesis">
+      <p class="section__label">03 — Why I think I'd be useful</p>
+      <h2>I've done this work a few times.</h2>
+      <p>The Rang De redesign work (§05) is the clearest example. The Dell pipeline work and the Log9 telematics work are smaller flavours of the same idea: map the process, find the constraint, rebuild around it, instrument it so you can tell if it actually moved.</p>
+      <p>None of that's magic — it's just where I've spent most of my time, and I'm faster at it now than I was three years ago.</p>
+    </section>
+
+    <section class="section" id="solution">
+      <p class="section__label">04 — How I tend to work</p>
+      <h2>A few things I try to do.</h2>
+
+      <h3>01 &nbsp;&nbsp; Start at the slow step, not the feature.</h3>
+      <p>Most of my better work has come from looking for the actual constraint first. The spec follows the constraint, not the other way around.</p>
+
+      <h3>02 &nbsp;&nbsp; Build the system, not just the tool.</h3>
+      <p>A loan-review tool is a tool. A loan-review system that's measurably faster and cheaper is what tends to stick. The second is usually the more interesting problem.</p>
+
+      <h3>03 &nbsp;&nbsp; Instrument before launch, not after.</h3>
+      <p>If we can't tell from a dashboard whether the metric moved, I'm not really sure if we changed anything. So I try to get the measurement in place before the change ships.</p>
+    </section>
+
+    <section class="section" id="metrics">
+      <p class="section__label">05 — Some numbers from past work</p>
+      <h2>From things I owned end-to-end.</h2>
+      <p>Each row below is from work I led. Happy to walk through how any of them came together.</p>
+
+      <table class="metrics" data-reveal>
+        <thead>
+          <tr><th></th><th>METRIC</th><th>WHAT MOVED</th><th>WHERE</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−70%</span></td><td class="m-desc">Loan turnaround time</td><td class="m-where">Rang De · automated review system</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−60%</span></td><td class="m-desc">Manpower required</td><td class="m-where">Rang De · process redesign</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−80%</span></td><td class="m-desc">Manual data handling</td><td class="m-where">Rang De · performance dashboards</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−30%</span></td><td class="m-desc">Non-performing assets</td><td class="m-where">Rang De · repayment strategy</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−45%</span></td><td class="m-desc">Loan application failure rate</td><td class="m-where">Rang De · loan-flow overhaul</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">$200M</span></td><td class="m-desc">New-business pipeline strategized</td><td class="m-where">Dell · opportunity strategy</td></tr>
+          <tr><td><span class="check check--done"></span></td><td><span class="m-num">−35%</span></td><td class="m-desc">Man-hours on EV display testing</td><td class="m-where">Log9 · embedded systems</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" id="oos">
+      <p class="section__label">06 — Things to flag upfront</p>
+      <h2>What I'm not.</h2>
+      <ul>
+        <li>I'm not a designer. I can put together decent wireframes, but for anything that ships, you'd want a real designer in the room.</li>
+        <li>I work best when initiatives have a number attached to them. If a role is purely shipping a fixed spec without much "why," I'd probably get restless.</li>
+        <li>I take a bit longer with vague problems than with well-defined ones. I tend to want to understand the system before I commit to a direction.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="open">
+      <p class="section__label">07 — Things I'd be happy to talk through</p>
+      <h2>If any of these are useful.</h2>
+      <ul>
+        <li>The Rang De loan-review redesign end-to-end — what the constraint actually was, what we tried, what worked.</li>
+        <li>How the NPA reduction work came together — the strategy, the system, the dashboards.</li>
+        <li>The Dell pipeline work — how we got to the $200M number and what was actually behind it.</li>
+        <li>The Akteena API docs project — why something as "boring" as documentation made it onto the roadmap.</li>
+      </ul>
+      <p>Drop a note on <a href="contact.html">TKT-001</a> or grab a slot, whatever's easier.</p>
+    </section>
+
+    <section class="section" id="appx">
+      <p class="section__label">08 — Where to read more</p>
+      <h2>If you want more detail.</h2>
+      <ul>
+        <li><a href="about.html">BG-002 · Background</a> — fuller version of how I work, the tools I use, the full track record, leadership stuff.</li>
+        <li><a href="portfolio.html">APX-A · Case files</a> — each project laid out as a small spec.</li>
+        <li><a href="contact.html">TKT-001 · Get in touch</a> — the easiest way to actually reach me.</li>
+      </ul>
+
+      <ol class="fn-list" style="list-style:none">
+        <li>All numbers in §05 are from owned work at Rang De P2P Financial Services (2024), Dell Technologies (2022–23) and Log9 Materials (2021). Happy to walk through the source for any of them.</li>
+      </ol>
+    </section>
+
+    <footer class="eof">
+      <span class="eof__marker">END OF PRD–001</span>
+      <span>© <span data-year>2026</span> S.J. Ruthvik · Bengaluru</span>
+      <span>Thanks for reading.</span>
+    </footer>
+
+  </div>
+
+  <aside class="doc__rail">
+
+    <div class="rail__group" data-reveal>
+      <p class="rail__label">AUTHOR</p>
+      <div class="author">
+        <div class="author__photo"><img src="https://www.sjruthvik.in/wp-content/uploads/2024/07/Capture.webp" alt="Ruthvik"></div>
+        <div>
+          <div class="author__name">S.J. Ruthvik</div>
+          <div class="author__role">Technical PM · Akteena</div>
+          <div class="author__links">
+            <a href="https://www.linkedin.com/in/sjruthvik/" target="_blank" rel="noopener">in/</a>
+            <a href="https://twitter.com/sjruthvik" target="_blank" rel="noopener">@/</a>
+            <a href="mailto:sjruthvik99@gmail.com">✉/</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rail__group">
+      <p class="rail__label">CONTENTS</p>
+      <nav class="rail__toc">
+        <a href="#background">01 Background</a>
+        <a href="#problem">02 What you might be hiring for</a>
+        <a href="#hypothesis">03 Why I'd be useful</a>
+        <a href="#solution">04 How I tend to work</a>
+        <a href="#metrics">05 Some numbers</a>
+        <a href="#oos">06 Things to flag</a>
+        <a href="#open">07 Happy to talk through</a>
+        <a href="#appx">08 Where to read more</a>
+      </nav>
+    </div>
+
+    <div class="rail__group">
+      <p class="rail__label">MARGIN NOTES</p>
+
+      <div class="comment">
+        <div class="comment__head">
+          <span class="comment__avatar comment__avatar--d">R</span>
+          <span class="comment__name">Ruthvik</span>
+          <span class="comment__time">§01</span>
+        </div>
+        <p class="comment__body">Came out of EI engineering at RVCE. The product side started clicking around year two at Dell.</p>
+      </div>
+
+      <div class="comment">
+        <div class="comment__head">
+          <span class="comment__avatar comment__avatar--d">R</span>
+          <span class="comment__name">Ruthvik</span>
+          <span class="comment__time">§05</span>
+        </div>
+        <p class="comment__body">If you're skimming, this is the section I'd probably point to first. Happy to walk through the actual stories.</p>
+      </div>
+
+      <div class="comment">
+        <div class="comment__head">
+          <span class="comment__avatar comment__avatar--d">R</span>
+          <span class="comment__name">Ruthvik</span>
+          <span class="comment__time">§07</span>
+        </div>
+        <p class="comment__body">If something here doesn't match what you're hiring for — still happy to chat. Worst case, you've met someone new.</p>
+      </div>
+
+      <a class="btn btn--ghost" href="contact.html" style="width:100%; justify-content:center; margin-top:6px;">+ say hi</a>
+    </div>
+
+  </aside>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
